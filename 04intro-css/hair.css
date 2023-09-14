@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* heaader stuff */
+header {
+    background-color: #EDF2C9;
+    padding: 1rem 2vw; 
+}
+
+header h1 {
+    margin: 0;
+    color: #A61449;
+}
+
+header p {
+    margin: 0;
+    color: #A61449;
+    letter-spacing: 2.85px;
+}
+
+nav {
+    background-color:#D1D996;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:  0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #A61449;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a {
+    background-color:#A61449;
+    color: #EDF2C9;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #95A658;
+}
+
+/* This is the main section. */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color:#A61449;
+}
+
+main h2 {
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #100611;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw 0;
+    background-color: #EDF2C9;
+    list-style-type: lower-roman; 
+    
+}
+
+
+main dl dt {
+    color:#95A658 ;
+    font-weight: 700;
+}
+
+main dl dd {
+    color:#A61449 ;
+    font-size: .9rem;
+}
+main ul  {
+    list-style-type: circle;
+    
+}
+main ul li  {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    
+
+}
+
+main address {
+    font-style: normal;
+    background-color:#D1D996;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #95A658 ;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #A61449;
+}
+
+main a:hover {
+    color: #A61449;
+}
+
+
+/* This is the footer section. */
+footer {
+    background-color: #EDF2C9;
+    text-align: center;
+    color: #A61449 ;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #A61449;
+}
