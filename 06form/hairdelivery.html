@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="New hair with Natalie.">
+    <meta charset="UTF-8">
+    <title>New hair with Natalie: All about wedding hair</title>
+    <link rel="stylesheet" href="hair.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>New hair with Natalie</h1>
+        <p>Achieve the hair of your dreams!</p>
+    </header>
+    
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home page</a></li>
+            <li><a href="weddinghair.html">Wedding Hair</a></li>
+            <li><a href="hairgallery.html">Hair Gallery</a></li>
+            <li class="active"><a href="hairdelivery.html">Delivery</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Request a Delivery</h1>
+    <form method="get" class="myform" action="hairthanks.html">
+        <fieldset>
+            <legend>Customer Imformation</legend>
+           <label>First Name*<input type="text" name="fname" required>
+    </label>
+    <label>Last Name*<input type="text" name="lname" required>
+    </label>
+    <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234">
+    </label>
+</fieldset>
+
+<fieldset>
+    <legend>Delivery method</legend>
+    <label>
+    <input type="radio" name="method" value="drone"> UPS Delivery (2 days) </label>
+     <label><input type="radio" name="method" value="cycle"> FedEx (3 days) </label>
+    <label><input type="radio" name="method" value="robot"> USPS Delivery (5-10 days)
+    </label>
+</fieldset>
+
+<fieldset>
+    <legend>Delivery Options</legend>
+   <Label><input type="checkbox" name="porch" value="chosen"> Front of Salon</Label>
+    <label><input type="checkbox" name="method2" value="deck"> Back deck </label>
+   <Label><input type="checkbox" name="method3" value="driveway"> Driveway </Label>
+   <Label><input type="checkbox" name="porch" value="garage">  Inside the Salon </Label>
+  <label> Prefered Delivery Time
+   <select name="time">
+<option value="none"> Please Select</option>
+<option value="morning">Between 7:00am and 11:00am</option>
+<option value="noon">Between 11:00am and 2:00pm</option>
+<option value="afternoon">Between 2:00pm and 5:00pm</option>
+<option value="evening">Between 5:00pm and 8:00pm</option>
+ </select>
+</label>
+</fieldset>
+<label> Comments
+    <textarea name="comments"> Please add cooments </textarea>
+</label>
+
+
+        <input type="submit" value="Send Delivery Request">
+    </form>
+        
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; N.H.W.N. &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
