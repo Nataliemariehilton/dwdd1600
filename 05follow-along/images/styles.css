@@ -1,0 +1,44 @@
+/* prevent problems with different browsers*/
+*{
+    box-sizing:border-box;
+}
+/* before footer */
+.angelhero{
+    width: 100%;
+    margin:0;
+}
+.angelhero img{
+  width: 100%;
+  height:auto;
+  margin:0;
+}
+
+.angelogallery img:hover{
+    width:98%;
+    height:auto;
+    box-shadow: 0px 0px 10px black;
+
+}
+/* navigation for small screen stuff here */
+@media only screen and (min-width: 600px){
+    /*put at the bottom of nav the sgigle braket and also double the nav stuff*/
+    nav ul {
+
+    }
+        margin: 0;
+        /* no first section or flex in 2nd
+         font wight 700 text transform: capitilize;
+         1px border bottom color #aaaaaa;
+         */
+         nav.active a{
+            backround-color: #8c501b;
+            background-image: linear-gradient (to bottom, #8b5022, #653a19)
+       }
+         
+    
+    }
+/* navigation for laarge screen stuff here */
+@media only screen and (min-width: 601px){
+/*put at the bottom of nav the sgigle braket */
+
+}

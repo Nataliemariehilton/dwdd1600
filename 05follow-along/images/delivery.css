@@ -1,0 +1,25 @@
+delivery.css
+/* From stuff here */
+.myform fieldset{
+border: 1px solid #43a0b6;
+border-radius: 3px; 
+margin-bottom: .8rem;
+}
+.myform legend{
+    font-size: .8rem;
+    color: #43a0b6
+} 
+.myform select {
+    border: solid 1px #8888888;
+    padding: .3rem;
+    width: 250px;
+    font-weight: 200;
+    font-family: 'Montserrat Alternatives' Sans-serif
+    border-radius: .3rem
+    
+
+}
+.myform textarea{
+ height: 6rem;
+ 
+}
